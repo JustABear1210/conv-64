@@ -1,0 +1,23 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../project_1.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../project_1.srcs/sources_1/bd/design_1/ipshared/70cf/hdl" --include "C:/Xilinx/Vivado/2018.3/data/xilinx_vip/include" \
+"../../../../project_1.ip_user_files/bd/design_1/ip/design_1_processing_system7_0_0/sim/design_1_processing_system7_0_0.v" \
+"../../../../project_1.ip_user_files/bd/design_1/ip/design_1_myip_0_0/src/blk_mem_gen_out/sim/blk_mem_gen_out.v" \
+"../../../../project_1.ip_user_files/bd/design_1/ip/design_1_myip_0_0/src/blk_mem_gen_a/sim/blk_mem_gen_a.v" \
+"../../../../project_1.ip_user_files/bd/design_1/ipshared/e35a/src/Fourbyfour.v" \
+"../../../../project_1.ip_user_files/bd/design_1/ipshared/e35a/src/Kernel.v" \
+"../../../../project_1.ip_user_files/bd/design_1/ipshared/e35a/hdl/myip_v1_0_S00_AXI.v" \
+"../../../../project_1.ip_user_files/bd/design_1/ipshared/e35a/hdl/myip_v1_0.v" \
+"../../../../project_1.ip_user_files/bd/design_1/ip/design_1_myip_0_0/sim/design_1_myip_0_0.v" \
+"../../../../project_1.ip_user_files/bd/design_1/ip/design_1_xbar_0/sim/design_1_xbar_0.v" \
+"../../../../project_1.ip_user_files/bd/design_1/ip/design_1_auto_pc_1/sim/design_1_auto_pc_1.v" \
+"../../../../project_1.ip_user_files/bd/design_1/ip/design_1_auto_us_0/sim/design_1_auto_us_0.v" \
+"../../../../project_1.ip_user_files/bd/design_1/ip/design_1_auto_ds_0/sim/design_1_auto_ds_0.v" \
+"../../../../project_1.ip_user_files/bd/design_1/ip/design_1_auto_pc_0/sim/design_1_auto_pc_0.v" \
+"../../../../project_1.ip_user_files/bd/design_1/sim/design_1.v" \
+"../../../../project_1.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
